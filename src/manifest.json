@@ -1,0 +1,22 @@
+{
+  "name": "Redfin scraper",
+  "description": "Extract property data from Redfin web page",
+  "version": "1.0",
+  "permissions": [
+    "activeTab", "https://*/*"
+  ],
+  "background": {
+    "scripts": ["main.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["jquery-3.1.1.min.js"]
+    }
+  ],  
+  "browser_action": {
+    "default_title": "Redfin scraper"
+  },
+  "manifest_version": 2
+}
