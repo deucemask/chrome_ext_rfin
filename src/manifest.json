@@ -1,6 +1,6 @@
 {
-  "name": "Redfin scraper",
-  "description": "Extract property data from Redfin web page",
+  "name": "Rfin scraper",
+  "description": "Extract property data from Rfin web page",
   "version": "1.0",
   "permissions": [
     "activeTab", "https://*/*"
@@ -16,7 +16,8 @@
     }
   ],  
   "browser_action": {
-    "default_title": "Redfin scraper"
+    "default_title": "Rfin scraper"
   },
   "manifest_version": 2
 }
+
