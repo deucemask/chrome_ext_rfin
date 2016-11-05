@@ -1,1 +1,1 @@
-Chrome extension to extract data from Redfin web page
+Chrome extension to extract data from Rfin web page
