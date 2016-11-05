@@ -47,7 +47,8 @@ row[8] = jQuery(".HomeMainStats .info-block:nth-child(4) .statsValue").text();
 row[9] = jQuery(".HomeMainStats .info-block:nth-child(5) .statsValue").text();
 
 //Lot Size
-row[10] = jQuery(jQuery(".more-info-div .inline-block:nth-child(2) .more-info-data")[2]).text().replace(" square feet", "");
+// row[10] = jQuery(jQuery(".more-info-div .inline-block:nth-child(2) .more-info-data")[2]).text().replace(" square feet", "");
+row[10] = jQuery(".more-info-div tr:contains('Lot Size') .more-info-data").text().replace(" square feet", "");
 
 
 //Schools
@@ -63,7 +64,7 @@ row[13] = "";
 row[14] = "";
 
 //Year built
-row[15] = jQuery(jQuery(".more-info-div .inline-block:nth-child(1) .more-info-data")[2]).text();
+row[15] = jQuery(".more-info-div tr:contains('Built') .more-info-data").text();
 
 //Garage
 row[16] = jQuery("span:contains('Garage Spaces:')").next().text();
